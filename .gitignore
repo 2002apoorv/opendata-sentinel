@@ -1,0 +1,43 @@
+# Python virtual environment & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
+# Node & Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.temp/
+frontend/.oxlintrc.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases & local dynamic data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+sentinel.db
+data/*.db
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Secrets & Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,144 @@
+facility_id,state,district,facility_type,total_beds,icu_beds,doctors_on_duty,daily_opd_attendance,inpatients_admitted,reporting_month
+NHM-FAC-5001,Kerala,Ernakulam,District Hospital (DH),218,16,71,1845,190,2026-09
+NHM-FAC-5002,Kerala,Ernakulam,District Hospital (DH),494,57,107,1170,326,2026-09
+NHM-FAC-5003,Kerala,Ernakulam,Sub-District Hospital (SDH),380,30,84,1567,237,2026-09
+NHM-FAC-5004,Kerala,Ernakulam,Sub-District Hospital (SDH),366,46,84,1426,233,2026-09
+NHM-FAC-5005,Kerala,Ernakulam,Sub-District Hospital (SDH),305,37,107,1224,257,2026-09
+NHM-FAC-5006,Kerala,Ernakulam,Community Health Centre (CHC),33,2,12,481,18,2026-09
+NHM-FAC-5007,Kerala,Ernakulam,Community Health Centre (CHC),48,3,12,437,27,2026-09
+NHM-FAC-5008,Kerala,Ernakulam,Community Health Centre (CHC),62,0,8,342,40,2026-09
+NHM-FAC-5009,Kerala,Ernakulam,Primary Health Centre (PHC),7,0,3,151,6,2026-09
+NHM-FAC-5010,Kerala,Ernakulam,Primary Health Centre (PHC),11,0,3,121,9,2026-09
+NHM-FAC-5011,Kerala,Thiruvananthapuram,District Hospital (DH),299,48,35,1786,225,2026-09
+NHM-FAC-5012,Kerala,Thiruvananthapuram,District Hospital (DH),299,38,44,1230,275,2026-09
+NHM-FAC-5013,Kerala,Thiruvananthapuram,District Hospital (DH),403,28,94,1805,367,2026-09
+NHM-FAC-5014,Kerala,Thiruvananthapuram,Sub-District Hospital (SDH),401,15,109,2145,354,2026-09
+NHM-FAC-5015,Kerala,Thiruvananthapuram,Sub-District Hospital (SDH),298,27,55,1688,190,2026-09
+NHM-FAC-5016,Kerala,Thiruvananthapuram,Sub-District Hospital (SDH),267,15,104,2246,216,2026-09
+NHM-FAC-5017,Kerala,Thiruvananthapuram,Sub-District Hospital (SDH),346,43,90,861,302,2026-09
+NHM-FAC-5018,Kerala,Thiruvananthapuram,Community Health Centre (CHC),57,1,15,191,37,2026-09
+NHM-FAC-5019,Kerala,Thiruvananthapuram,Community Health Centre (CHC),71,3,10,182,64,2026-09
+NHM-FAC-5020,Kerala,Thiruvananthapuram,Community Health Centre (CHC),75,3,9,408,49,2026-09
+NHM-FAC-5021,Kerala,Thiruvananthapuram,Primary Health Centre (PHC),11,0,2,111,8,2026-09
+NHM-FAC-5022,Kerala,Thiruvananthapuram,Primary Health Centre (PHC),5,0,2,170,3,2026-09
+NHM-FAC-5023,Kerala,Thiruvananthapuram,Primary Health Centre (PHC),6,0,1,101,3,2026-09
+NHM-FAC-5024,Tamil Nadu,Coimbatore,District Hospital (DH),358,24,52,1388,306,2026-09
+NHM-FAC-5025,Tamil Nadu,Coimbatore,District Hospital (DH),520,38,78,2430,329,2026-09
+NHM-FAC-5026,Tamil Nadu,Coimbatore,District Hospital (DH),200,51,56,1811,177,2026-09
+NHM-FAC-5027,Tamil Nadu,Coimbatore,Sub-District Hospital (SDH),464,15,55,2203,274,2026-09
+NHM-FAC-5028,Tamil Nadu,Coimbatore,Sub-District Hospital (SDH),242,47,101,1905,181,2026-09
+NHM-FAC-5029,Tamil Nadu,Coimbatore,Community Health Centre (CHC),37,1,14,360,31,2026-09
+NHM-FAC-5030,Tamil Nadu,Coimbatore,Community Health Centre (CHC),79,0,9,328,53,2026-09
+NHM-FAC-5031,Tamil Nadu,Coimbatore,Community Health Centre (CHC),65,2,15,418,38,2026-09
+NHM-FAC-5032,Tamil Nadu,Coimbatore,Primary Health Centre (PHC),10,0,1,92,8,2026-09
+NHM-FAC-5033,Tamil Nadu,Coimbatore,Primary Health Centre (PHC),5,0,1,67,3,2026-09
+NHM-FAC-5034,Tamil Nadu,Coimbatore,Primary Health Centre (PHC),5,0,1,152,4,2026-09
+NHM-FAC-5035,Tamil Nadu,Madurai,District Hospital (DH),495,53,40,880,467,2026-09
+NHM-FAC-5036,Tamil Nadu,Madurai,District Hospital (DH),284,47,101,1315,173,2026-09
+NHM-FAC-5037,Tamil Nadu,Madurai,Sub-District Hospital (SDH),237,31,65,2459,171,2026-09
+NHM-FAC-5038,Tamil Nadu,Madurai,Sub-District Hospital (SDH),334,58,40,2236,268,2026-09
+NHM-FAC-5039,Tamil Nadu,Madurai,Community Health Centre (CHC),43,1,9,161,35,2026-09
+NHM-FAC-5040,Tamil Nadu,Madurai,Community Health Centre (CHC),62,3,7,158,36,2026-09
+NHM-FAC-5041,Tamil Nadu,Madurai,Primary Health Centre (PHC),9,0,3,140,5,2026-09
+NHM-FAC-5042,Tamil Nadu,Madurai,Primary Health Centre (PHC),8,0,3,131,5,2026-09
+NHM-FAC-5043,Tamil Nadu,Madurai,Primary Health Centre (PHC),10,0,2,143,5,2026-09
+NHM-FAC-5044,Maharashtra,Pune,District Hospital (DH),411,42,75,1142,226,2026-09
+NHM-FAC-5045,Maharashtra,Pune,District Hospital (DH),580,57,85,2346,350,2026-09
+NHM-FAC-5046,Maharashtra,Pune,District Hospital (DH),312,43,94,1397,270,2026-09
+NHM-FAC-5047,Maharashtra,Pune,District Hospital (DH),530,19,79,1520,421,2026-09
+NHM-FAC-5048,Maharashtra,Pune,Sub-District Hospital (SDH),291,20,100,2455,264,2026-09
+NHM-FAC-5049,Maharashtra,Pune,Sub-District Hospital (SDH),546,55,97,1051,378,2026-09
+NHM-FAC-5050,Maharashtra,Pune,Community Health Centre (CHC),35,1,15,493,24,2026-09
+NHM-FAC-5051,Maharashtra,Pune,Community Health Centre (CHC),52,0,6,286,38,2026-09
+NHM-FAC-5052,Maharashtra,Pune,Community Health Centre (CHC),51,1,14,336,37,2026-09
+NHM-FAC-5053,Maharashtra,Pune,Primary Health Centre (PHC),11,0,3,177,7,2026-09
+NHM-FAC-5054,Maharashtra,Pune,Primary Health Centre (PHC),5,0,3,97,3,2026-09
+NHM-FAC-5055,Maharashtra,Pune,Primary Health Centre (PHC),7,0,3,100,4,2026-09
+NHM-FAC-5056,Maharashtra,Nagpur,District Hospital (DH),315,27,53,1480,288,2026-09
+NHM-FAC-5057,Maharashtra,Nagpur,District Hospital (DH),532,37,99,1358,416,2026-09
+NHM-FAC-5058,Maharashtra,Nagpur,District Hospital (DH),204,49,52,2157,125,2026-09
+NHM-FAC-5059,Maharashtra,Nagpur,District Hospital (DH),573,49,37,1538,432,2026-09
+NHM-FAC-5060,Maharashtra,Nagpur,Sub-District Hospital (SDH),466,46,35,1519,375,2026-09
+NHM-FAC-5061,Maharashtra,Nagpur,Sub-District Hospital (SDH),216,22,79,1142,126,2026-09
+NHM-FAC-5062,Maharashtra,Nagpur,Sub-District Hospital (SDH),236,54,102,2130,164,2026-09
+NHM-FAC-5063,Maharashtra,Nagpur,Sub-District Hospital (SDH),487,30,84,1423,319,2026-09
+NHM-FAC-5064,Maharashtra,Nagpur,Community Health Centre (CHC),44,2,9,208,36,2026-09
+NHM-FAC-5065,Maharashtra,Nagpur,Community Health Centre (CHC),38,2,12,198,33,2026-09
+NHM-FAC-5066,Maharashtra,Nagpur,Community Health Centre (CHC),47,0,12,202,43,2026-09
+NHM-FAC-5067,Maharashtra,Nagpur,Primary Health Centre (PHC),6,0,3,107,5,2026-09
+NHM-FAC-5068,Maharashtra,Nagpur,Primary Health Centre (PHC),7,0,2,170,4,2026-09
+NHM-FAC-5069,Maharashtra,Nagpur,Primary Health Centre (PHC),5,0,1,169,4,2026-09
+NHM-FAC-5070,Odisha,Khordha,District Hospital (DH),279,45,62,1869,175,2026-09
+NHM-FAC-5071,Odisha,Khordha,District Hospital (DH),239,25,63,2231,178,2026-09
+NHM-FAC-5072,Odisha,Khordha,Sub-District Hospital (SDH),238,33,71,1255,203,2026-09
+NHM-FAC-5073,Odisha,Khordha,Sub-District Hospital (SDH),248,56,69,1016,197,2026-09
+NHM-FAC-5074,Odisha,Khordha,Sub-District Hospital (SDH),218,59,36,968,134,2026-09
+NHM-FAC-5075,Odisha,Khordha,Community Health Centre (CHC),49,1,9,224,40,2026-09
+NHM-FAC-5076,Odisha,Khordha,Community Health Centre (CHC),65,0,15,399,60,2026-09
+NHM-FAC-5077,Odisha,Khordha,Community Health Centre (CHC),42,2,9,354,27,2026-09
+NHM-FAC-5078,Odisha,Khordha,Primary Health Centre (PHC),11,0,2,156,9,2026-09
+NHM-FAC-5079,Odisha,Khordha,Primary Health Centre (PHC),7,0,3,160,5,2026-09
+NHM-FAC-5080,Odisha,Khordha,Primary Health Centre (PHC),10,0,1,56,8,2026-09
+NHM-FAC-5081,Odisha,Khordha,Primary Health Centre (PHC),4,0,2,140,2,2026-09
+NHM-FAC-5082,Odisha,Sundargarh,District Hospital (DH),308,20,83,800,194,2026-09
+NHM-FAC-5083,Odisha,Sundargarh,District Hospital (DH),556,53,77,2074,394,2026-09
+NHM-FAC-5084,Odisha,Sundargarh,District Hospital (DH),280,17,104,1178,202,2026-09
+NHM-FAC-5085,Odisha,Sundargarh,Sub-District Hospital (SDH),486,45,39,1566,366,2026-09
+NHM-FAC-5086,Odisha,Sundargarh,Sub-District Hospital (SDH),591,47,64,1382,435,2026-09
+NHM-FAC-5087,Odisha,Sundargarh,Community Health Centre (CHC),48,0,7,492,45,2026-09
+NHM-FAC-5088,Odisha,Sundargarh,Community Health Centre (CHC),42,2,12,257,27,2026-09
+NHM-FAC-5089,Odisha,Sundargarh,Community Health Centre (CHC),54,2,12,190,33,2026-09
+NHM-FAC-5090,Odisha,Sundargarh,Primary Health Centre (PHC),4,0,2,151,3,2026-09
+NHM-FAC-5091,Odisha,Sundargarh,Primary Health Centre (PHC),5,0,1,40,2,2026-09
+NHM-FAC-5092,Odisha,Sundargarh,Primary Health Centre (PHC),9,0,2,73,8,2026-09
+NHM-FAC-5093,Odisha,Sundargarh,Primary Health Centre (PHC),9,0,1,63,7,2026-09
+NHM-FAC-5094,Assam,Kamrup,District Hospital (DH),333,45,68,1765,190,2026-09
+NHM-FAC-5095,Assam,Kamrup,District Hospital (DH),582,59,102,1413,348,2026-09
+NHM-FAC-5096,Assam,Kamrup,District Hospital (DH),561,36,71,2298,381,2026-09
+NHM-FAC-5097,Assam,Kamrup,Sub-District Hospital (SDH),428,17,86,1340,236,2026-09
+NHM-FAC-5098,Assam,Kamrup,Sub-District Hospital (SDH),289,33,57,1643,261,2026-09
+NHM-FAC-5099,Assam,Kamrup,Community Health Centre (CHC),53,0,11,471,39,2026-09
+NHM-FAC-5100,Assam,Kamrup,Community Health Centre (CHC),66,3,14,476,59,2026-09
+NHM-FAC-5101,Assam,Kamrup,Community Health Centre (CHC),46,2,7,282,34,2026-09
+NHM-FAC-5102,Assam,Kamrup,Primary Health Centre (PHC),8,0,3,120,5,2026-09
+NHM-FAC-5103,Assam,Kamrup,Primary Health Centre (PHC),8,0,3,104,4,2026-09
+NHM-FAC-5104,Assam,Kamrup,Primary Health Centre (PHC),9,0,2,109,5,2026-09
+NHM-FAC-5105,Assam,Kamrup,Primary Health Centre (PHC),4,0,2,164,3,2026-09
+NHM-FAC-5106,Assam,Dibrugarh,District Hospital (DH),463,26,46,1333,355,2026-09
+NHM-FAC-5107,Assam,Dibrugarh,District Hospital (DH),262,19,101,1998,244,2026-09
+NHM-FAC-5108,Assam,Dibrugarh,District Hospital (DH),367,52,70,2305,274,2026-09
+NHM-FAC-5109,Assam,Dibrugarh,District Hospital (DH),552,31,41,1898,371,2026-09
+NHM-FAC-5110,Assam,Dibrugarh,Sub-District Hospital (SDH),331,28,90,1513,195,2026-09
+NHM-FAC-5111,Assam,Dibrugarh,Sub-District Hospital (SDH),256,59,74,2375,204,2026-09
+NHM-FAC-5112,Assam,Dibrugarh,Sub-District Hospital (SDH),305,44,46,912,259,2026-09
+NHM-FAC-5113,Assam,Dibrugarh,Sub-District Hospital (SDH),304,37,69,946,214,2026-09
+NHM-FAC-5114,Assam,Dibrugarh,Community Health Centre (CHC),43,1,9,335,28,2026-09
+NHM-FAC-5115,Assam,Dibrugarh,Community Health Centre (CHC),67,3,13,188,53,2026-09
+NHM-FAC-5116,Assam,Dibrugarh,Community Health Centre (CHC),36,1,8,270,31,2026-09
+NHM-FAC-5117,Assam,Dibrugarh,Community Health Centre (CHC),40,1,10,159,24,2026-09
+NHM-FAC-5118,Assam,Dibrugarh,Primary Health Centre (PHC),11,0,1,94,9,2026-09
+NHM-FAC-5119,Assam,Dibrugarh,Primary Health Centre (PHC),6,0,1,91,3,2026-09
+NHM-FAC-5120,Assam,Dibrugarh,Primary Health Centre (PHC),8,0,1,117,7,2026-09
+NHM-FAC-5121,Bihar,Patna,District Hospital (DH),476,41,108,1166,330,2026-09
+NHM-FAC-5122,Bihar,Patna,District Hospital (DH),540,35,73,1789,340,2026-09
+NHM-FAC-5123,Bihar,Patna,Sub-District Hospital (SDH),500,45,103,1443,450,2026-09
+NHM-FAC-5124,Bihar,Patna,Sub-District Hospital (SDH),210,28,64,1871,139,2026-09
+NHM-FAC-5125,Bihar,Patna,Sub-District Hospital (SDH),343,37,47,2401,251,2026-09
+NHM-FAC-5126,Bihar,Patna,Sub-District Hospital (SDH),553,33,59,1158,436,2026-09
+NHM-FAC-5127,Bihar,Patna,Community Health Centre (CHC),79,1,10,280,66,2026-09
+NHM-FAC-5128,Bihar,Patna,Community Health Centre (CHC),47,0,11,480,44,2026-09
+NHM-FAC-5129,Bihar,Patna,Primary Health Centre (PHC),11,0,1,179,6,2026-09
+NHM-FAC-5130,Bihar,Patna,Primary Health Centre (PHC),11,0,3,42,9,2026-09
+NHM-FAC-5131,Bihar,Patna,Primary Health Centre (PHC),10,0,3,166,8,2026-09
+NHM-FAC-5132,Bihar,Gaya,District Hospital (DH),553,52,42,2249,411,2026-09
+NHM-FAC-5133,Bihar,Gaya,District Hospital (DH),531,31,46,2334,321,2026-09
+NHM-FAC-5134,Bihar,Gaya,District Hospital (DH),583,52,83,881,414,2026-09
+NHM-FAC-5135,Bihar,Gaya,Sub-District Hospital (SDH),247,59,40,922,219,2026-09
+NHM-FAC-5136,Bihar,Gaya,Sub-District Hospital (SDH),434,53,92,1615,401,2026-09
+NHM-FAC-5137,Bihar,Gaya,Community Health Centre (CHC),47,0,13,199,35,2026-09
+NHM-FAC-5138,Bihar,Gaya,Community Health Centre (CHC),66,2,7,205,55,2026-09
+NHM-FAC-5139,Bihar,Gaya,Community Health Centre (CHC),34,1,13,399,24,2026-09
+NHM-FAC-5140,Bihar,Gaya,Community Health Centre (CHC),76,3,8,231,64,2026-09
+NHM-FAC-5141,Bihar,Gaya,Primary Health Centre (PHC),11,0,2,177,6,2026-09
+NHM-FAC-5142,Bihar,Gaya,Primary Health Centre (PHC),6,0,3,120,3,2026-09
+NHM-FAC-5143,Bihar,Gaya,Primary Health Centre (PHC),10,0,2,92,7,2026-09

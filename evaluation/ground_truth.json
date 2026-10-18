@@ -1,0 +1,374 @@
+{
+  "total_records": 1000,
+  "injected_missing_cells": [
+    280,
+    4,
+    861,
+    613,
+    300,
+    510,
+    355,
+    619,
+    975,
+    189,
+    322,
+    695,
+    442,
+    764,
+    899,
+    785,
+    257,
+    243,
+    450,
+    892,
+    393,
+    332,
+    602,
+    364,
+    862,
+    90,
+    452,
+    363,
+    32,
+    292,
+    76,
+    158,
+    261,
+    233,
+    256,
+    971,
+    569,
+    696,
+    924,
+    298,
+    474,
+    177,
+    38,
+    687,
+    140,
+    822,
+    137,
+    605,
+    651,
+    646
+  ],
+  "injected_duplicate_rows": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024
+  ],
+  "injected_cross_field_violations": [
+    47,
+    3,
+    2,
+    623,
+    293,
+    338,
+    881,
+    373,
+    70,
+    707,
+    603,
+    167,
+    921,
+    995,
+    622
+  ],
+  "injected_negative_values": [
+    173,
+    299,
+    728,
+    909,
+    827,
+    428,
+    372,
+    4,
+    194,
+    257,
+    839,
+    220,
+    734,
+    69,
+    596
+  ],
+  "injected_numerical_anomalies": [
+    {
+      "row_index": 979,
+      "column": "modal_price",
+      "injected_value": 15118.37,
+      "original_value": 2258.24
+    },
+    {
+      "row_index": 235,
+      "column": "modal_price",
+      "injected_value": 10917.79,
+      "original_value": 2789.23
+    },
+    {
+      "row_index": 595,
+      "column": "modal_price",
+      "injected_value": 17867.03,
+      "original_value": 3101.83
+    },
+    {
+      "row_index": 740,
+      "column": "modal_price",
+      "injected_value": 10970.03,
+      "original_value": 2507.27
+    },
+    {
+      "row_index": 991,
+      "column": "modal_price",
+      "injected_value": 16082.24,
+      "original_value": 2501.93
+    },
+    {
+      "row_index": 483,
+      "column": "modal_price",
+      "injected_value": 12270.83,
+      "original_value": 2318.29
+    },
+    {
+      "row_index": 313,
+      "column": "modal_price",
+      "injected_value": 11000.12,
+      "original_value": 2768.48
+    },
+    {
+      "row_index": 339,
+      "column": "modal_price",
+      "injected_value": 16432.29,
+      "original_value": 2988.52
+    },
+    {
+      "row_index": 372,
+      "column": "modal_price",
+      "injected_value": 10704.25,
+      "original_value": 2172.31
+    },
+    {
+      "row_index": 705,
+      "column": "modal_price",
+      "injected_value": 12874.56,
+      "original_value": 2214.0
+    },
+    {
+      "row_index": 959,
+      "column": "modal_price",
+      "injected_value": 16981.07,
+      "original_value": 2578.1
+    },
+    {
+      "row_index": 283,
+      "column": "modal_price",
+      "injected_value": 10008.04,
+      "original_value": 2028.85
+    },
+    {
+      "row_index": 190,
+      "column": "modal_price",
+      "injected_value": 11189.48,
+      "original_value": 2478.52
+    },
+    {
+      "row_index": 201,
+      "column": "modal_price",
+      "injected_value": 5791.79,
+      "original_value": 1631.12
+    },
+    {
+      "row_index": 716,
+      "column": "modal_price",
+      "injected_value": 14273.88,
+      "original_value": 2589.63
+    },
+    {
+      "row_index": 927,
+      "column": "modal_price",
+      "injected_value": 14347.35,
+      "original_value": 2923.28
+    },
+    {
+      "row_index": 444,
+      "column": "modal_price",
+      "injected_value": 13398.77,
+      "original_value": 2784.87
+    },
+    {
+      "row_index": 161,
+      "column": "modal_price",
+      "injected_value": 6812.57,
+      "original_value": 1645.44
+    },
+    {
+      "row_index": 78,
+      "column": "modal_price",
+      "injected_value": 10134.67,
+      "original_value": 2024.83
+    },
+    {
+      "row_index": 289,
+      "column": "modal_price",
+      "injected_value": 15346.19,
+      "original_value": 2209.5
+    },
+    {
+      "row_index": 359,
+      "column": "modal_price",
+      "injected_value": 11279.36,
+      "original_value": 2483.27
+    },
+    {
+      "row_index": 524,
+      "column": "modal_price",
+      "injected_value": 12242.47,
+      "original_value": 2186.56
+    },
+    {
+      "row_index": 612,
+      "column": "modal_price",
+      "injected_value": 14207.14,
+      "original_value": 2284.95
+    },
+    {
+      "row_index": 753,
+      "column": "modal_price",
+      "injected_value": 14656.5,
+      "original_value": 2394.05
+    },
+    {
+      "row_index": 811,
+      "column": "modal_price",
+      "injected_value": 11458.84,
+      "original_value": 2463.89
+    },
+    {
+      "row_index": 516,
+      "column": "modal_price",
+      "injected_value": 14191.44,
+      "original_value": 2517.1
+    },
+    {
+      "row_index": 413,
+      "column": "modal_price",
+      "injected_value": 17469.55,
+      "original_value": 2667.34
+    },
+    {
+      "row_index": 334,
+      "column": "modal_price",
+      "injected_value": 8028.28,
+      "original_value": 2258.9
+    },
+    {
+      "row_index": 919,
+      "column": "modal_price",
+      "injected_value": 11074.5,
+      "original_value": 2203.85
+    },
+    {
+      "row_index": 104,
+      "column": "modal_price",
+      "injected_value": 11609.96,
+      "original_value": 2709.47
+    },
+    {
+      "row_index": 398,
+      "column": "modal_price",
+      "injected_value": 12540.42,
+      "original_value": 2580.22
+    },
+    {
+      "row_index": 100,
+      "column": "modal_price",
+      "injected_value": 14470.47,
+      "original_value": 2919.81
+    },
+    {
+      "row_index": 345,
+      "column": "modal_price",
+      "injected_value": 13038.67,
+      "original_value": 2132.82
+    },
+    {
+      "row_index": 907,
+      "column": "modal_price",
+      "injected_value": 10155.23,
+      "original_value": 2652.62
+    },
+    {
+      "row_index": 583,
+      "column": "modal_price",
+      "injected_value": 12600.41,
+      "original_value": 2380.11
+    },
+    {
+      "row_index": 440,
+      "column": "modal_price",
+      "injected_value": 13950.42,
+      "original_value": 2548.17
+    },
+    {
+      "row_index": 33,
+      "column": "modal_price",
+      "injected_value": 9624.26,
+      "original_value": 1840.36
+    },
+    {
+      "row_index": 402,
+      "column": "modal_price",
+      "injected_value": 14835.72,
+      "original_value": 2447.51
+    },
+    {
+      "row_index": 787,
+      "column": "modal_price",
+      "injected_value": 12400.46,
+      "original_value": 2560.35
+    },
+    {
+      "row_index": 672,
+      "column": "modal_price",
+      "injected_value": 17617.99,
+      "original_value": 2588.07
+    }
+  ],
+  "injected_schema_changes": {
+    "added_columns": [
+      "grade_code"
+    ],
+    "removed_columns": [
+      "volume_tonnes"
+    ],
+    "renamed_columns": {
+      "volume_tonnes": "daily_volume_mt"
+    }
+  },
+  "distribution_drift": {
+    "shifted_column": "modal_price",
+    "mean_shift_percent": 45.0,
+    "variance_multiplier": 2.2
+  }
+}

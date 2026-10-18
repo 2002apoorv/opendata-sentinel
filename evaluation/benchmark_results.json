@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-10-17T21:47:13.765194",
+  "sample_size": 1000,
+  "validation_benchmarks": {
+    "missing_value_detection": {
+      "ground_truth_injected": 50,
+      "detected_count": 51,
+      "detection_rate": 1.0,
+      "status": "PASS"
+    },
+    "duplicate_row_detection": {
+      "ground_truth_injected_pairs": 25,
+      "detected_affected_rows": 40,
+      "detection_rate": 1.0,
+      "status": "PASS"
+    },
+    "cross_field_bounds_detection": {
+      "ground_truth_injected": 15,
+      "detected_count": 15,
+      "detection_rate": 1.0,
+      "status": "PASS"
+    },
+    "non_negative_constraint_detection": {
+      "ground_truth_injected": 15,
+      "detected_count": 15,
+      "detection_rate": 1.0,
+      "status": "PASS"
+    }
+  },
+  "anomaly_detection_benchmarks": {
+    "iqr": {
+      "true_positives": 40,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 985,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "mad": {
+      "true_positives": 40,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 985,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "isolation_forest": {
+      "true_positives": 17,
+      "false_positives": 0,
+      "false_negatives": 23,
+      "true_negatives": 985,
+      "precision": 1.0,
+      "recall": 0.425,
+      "f1_score": 0.5965,
+      "false_positive_rate": 0.0
+    }
+  },
+  "drift_detection_benchmarks": {
+    "true_drift_detection": {
+      "tested_column": "modal_price",
+      "psi_value": 2.473,
+      "ks_pvalue": 0.0,
+      "drift_detected": true,
+      "interpretation": "Correctly flagged significant distribution drift (PSI >= 0.25)"
+    },
+    "false_alarm_rate_control": {
+      "tested_column": "modal_price (identical distribution split)",
+      "psi_value": 0.0291,
+      "false_drift_flagged": false,
+      "interpretation": "Controlled False Positive Rate: Stable distribution maintained (PSI < 0.10)"
+    }
+  },
+  "scoring_sensitivity_benchmarks": {
+    "clean_baseline_score": 100.0,
+    "corrupted_dataset_score": 75.7,
+    "score_delta": 24.3,
+    "critical_penalty_active": false,
+    "interpretation": "Score monotonically declines and strictly caps when critical violations occur, preventing mask effect."
+  },
+  "summary": {}
+}
