@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: opendata-sentinel
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
