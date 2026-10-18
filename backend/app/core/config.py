@@ -19,15 +19,8 @@ def _get_cors_origins() -> list[str]:
     raw = os.getenv("CORS_ORIGINS")
     if raw:
         return [o.strip() for o in raw.split(",") if o.strip()]
-    return [
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:5173",
-        "http://127.0.0.1:3000",
-        "http://localhost:8000",
-        "http://127.0.0.1:8000",
-        "*",  # Permissive for portfolio previews; can be restricted via CORS_ORIGINS in production
-    ]
+    return ["*"]
+
 
 
 class Settings(BaseModel):
