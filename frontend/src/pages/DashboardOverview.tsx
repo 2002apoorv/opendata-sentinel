@@ -38,13 +38,16 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
   const [summary, setSummary] = useState<DashboardSummary | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const fetchSummary = async () => {
+    setError(null);
     try {
       const data = await api.getDashboardSummary();
       setSummary(data);
-    } catch (err) {
-      console.error(err);
+    } catch (err: any) {
+      console.error('Failed to load dashboard summary:', err);
+      setError(err?.message || 'Failed to connect to Sentinel API backend');
     } finally {
       setIsLoading(false);
       setIsRefreshing(false);
@@ -70,6 +73,37 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
       </div>
     );
   }
+
+  if (error && !summary) {
+    return (
+      <div className="max-w-xl mx-auto py-16 px-4 text-center">
+        <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mx-auto mb-4">
+          <AlertTriangle className="w-8 h-8" />
+        </div>
+        <h2 className="text-xl font-bold text-slate-900">Unable to Connect to Sentinel API</h2>
+        <div className="mt-3 p-3.5 bg-slate-50 border border-slate-200 rounded-xl text-left">
+          <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Diagnostic Details</p>
+          <p className="text-xs font-mono text-slate-700 break-all">{error}</p>
+        </div>
+        <p className="text-xs text-slate-500 mt-3">
+          If hosted on a free cloud platform (such as Render), the server spins down after inactivity and may take ~50 seconds to boot up.
+        </p>
+        <div className="mt-6 flex items-center justify-center space-x-3">
+          <button
+            onClick={() => {
+              setIsLoading(true);
+              fetchSummary();
+            }}
+            className="flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-sm font-semibold shadow-xs transition"
+          >
+            <RefreshCw className="w-4 h-4" />
+            <span>Retry Connection</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
 
   if (!summary || summary.total_datasets === 0) {
     return (
